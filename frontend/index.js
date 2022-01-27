@@ -165,7 +165,7 @@ addData.addEventListener("click", () => {
       const responseData = await postFormDataAsJson({ url, formData });
 
       console.log({ responseData });
-      //location.href = "index.html"
+      location.href = "index.html"
     } catch (error) {
       console.error(error);
     }
